@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/port.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="js/typed.min.js"></script>
+</head>
+<body>
+ 	<header> 
+ 		<nav>
+ 			<div class="logo">PORTFO<span>LIO</span></div>
+
+ 			<div class="menu">
+ 				<a href="#">Home</a>
+ 				<a href="#">About</a>
+ 				<a href="#">Skills</a>
+ 				<a href="#">Services</a>
+ 				<a href="#">Contact</a>
+ 			</div>
+ 		</nav>
+         
+        <div class="text">
+        	<p>Hello, I am</p>
+        	<h1>Inderjeet Kaur</h1>
+        	<p>And I'm a <span id="any" style="color: #e74c3c"></span></p>
+        	<button class="c-btn">Hire me</button>
+        </div> 
+ </header>
+<!---------end of header section------------>
+
+<!---------about section started------------>
+
+<section id="about">
+	<div class="section-info">
+		<h1>About</h1>
+		<p>Who i am?</p>
+	</div>
+
+	<div class="about-row">
+		<div class="about-left-col"> 
+			<img src="images/about.jpg">
+		</div>
+
+			<div class="about-right-col">
+				<p id="p-title"> 
+					Hii..I'm Inderjeet kaur & I'm a <span id="any" style="color: #e74c3c">Web Designer</span></p>
+					<p>
+					I have completed my Bachelor in Computer Application(BCA) from Punjabi University, Patiala.<br>
+					Well, I have a strong interpersonal skills and I mix up with people easily. I am passionate about Graphic designing and Cloud. Most of the time I spend on learning new things which can assist me in work. I love coding, drawing, I also have keen interest in listening music, travelling in hill stations and big fan of Guitarist & bhangra.
+					<br>
+					I am always eager to help people. Most important things about me,i believe in myself nd have patience. I'm ambitius and loyal girl with higher thinking.
+				</p>
+				<button class="c-btn">Download CV</button>
+			 </div>
+	</div>
+</section>
+
+<!------------End About section---------->
+
+<!------------start skills section------>
+
+ <section id="skills">
+ 	<div class="section-info">
+ 		<h1 style="color:white;">skill's</h1>
+ 		<p>My skills</p>
+ 	</div>
+ 	
+ 	<div class="skills-row">
+ 		<div class="skills-left-col">
+ 			<p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. </p>
+ 			<button class="c-btn">Read more</button>
+ 		</div>
+ 		<div class="skills-right-col">
+ 			<div class="progress-div">
+ 				<p>
+ 				<span>HTML</span><br>
+ 				<progress value="80" max="100"></progress>
+ 				<span>80%</span>
+ 				</p>
+ 				<p>
+ 				<span>CSS</span><br>
+ 				<progress value="90" max="100"></progress>
+ 				<span>90%</span>
+ 				</p>
+ 				<p>
+ 				<span>JAVASCRIPT</span><br>
+ 				<progress value="70" max="100"></progress>
+ 				<span>70%</span>
+ 				</p>
+ 				<p>
+ 				<span>BOOTSTRAP</span><br>
+ 				<progress value="80" max="100"></progress>
+ 				<span>80%</span>
+ 				</p>
+ 				<p>
+ 				<span>PHP</span><br>
+ 				<progress value="60" max="100"></progress>
+ 				<span>60%</span>
+ 				</p>
+ 			</div>
+ 		</div>
+ 	
+ 			</div>
+</section>
+
+<!-------end skills section--------->
+
+<!---------start service section------>
+
+<section id="Services">
+	<div class="section-info">
+		<h1>Services</h1>
+		<p>What We Provide</p>
+	
+</div>
+	<div class="services-row">
+		<div class="services-box" data-tilt>
+			<img src="images/service.png">
+			<h2>Web Design</h2>
+			<p>
+			I Design the websites effective according to your needs. I also design sites according to purpose and theme of project.	
+			</p>
+		</div>
+		 
+		 <div class="services-box"data-tilt>
+			<img src="images/service.png">
+		
+			<h2>Portfolio</h2>
+			<p>
+			I Design responsive personal Portfolio as per Requirement of user. It is one page websites where is all information of people.
+			</p>
+		</div>
+
+		<div class="services-box"data-tilt>
+			<img src="images/service.png">
+			<h2>Graphic Design</h2>
+			<p>
+			I will serves your ideas in an effective way. I design beautiful digital invitation for your events to make it memorable for you and your guests.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section id="Contact">
+	<div class="section-info" style="color:white;">
+		<h1>Get in Touch</h1>
+		<p style="color:black;">We are Available</p>
+	</div>
+
+	<div class="contact-row">
+		<div class="contact-left-col">
+			<img src="images/contact.png">
+		</div>
+		<div class="contact-right-col">
+			<form>
+				<h2>Connect with us</h2>
+				<input type="text" name="" placeholder="name">
+				<input type="email" name="" placeholder="E-mail">
+				<br>
+				<textarea cols="40" rows="10" placeholder="Message"></textarea>
+				<br>
+				<button class="c-btn"> Submit</button>
+			</form>
+
+		</div>
+	</div>
+</section>
+<!--------------ends contact us section--------->
+
+<!----------footer section starts--------> 
+
+
+<section id="footer">
+	<h2>Developed by Inderjeet Kaur</h2>
+	<img src="images/icon.jpg" style="width:70px";>
+</section>
+
+<script src="js/jquery.ripples-min.js"></script>
+
+<script>
+	jQuery(document).ready(function(){
+		$('header').ripples({
+  dropRadius: 20,
+  perturbance: 0.3,
+});
+	});
+</script>
+
+<script>
+	let animate= new Typed('#any',{
+		strings:["Web Designer"],
+		typespeed:100,
+		backspeed:90,
+		loop:true,
+	});
+</script>
+
+<script src="js/tilt.jquery.min.js"></script>
+
+</script>
+</body>
+</html>
+
